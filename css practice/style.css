@@ -3,6 +3,7 @@ h1 {
     color: aquamarine;
     background-color: cadetblue;
     font-size: 30px;
+    font-family: Optima, sans-serif;
 }
 ul {
     color: rgb(21, 189, 231);
@@ -25,3 +26,38 @@ h1 {
 
 
 /* THE FOLLOWING IS FOR SUPERHERO ACTIVITY */
+#superheroList {
+    text-align: right;
+    background-color: gray;
+    color: honeydew;
+}
+
+#firstList {
+    background-color: indianred;
+}
+
+#secondList {
+    background-color: black;
+}
+
+#thirdList {
+    background-color: olivedrab;
+}
+
+#firstList, #secondList, #thirdList {
+    font-size: 20px;
+}
+
+#quarantineActivities {
+    color: rgb(139, 14, 56);
+    background-color: palevioletred;
+}
+
+.quarantine {
+    background-color: powderblue;
+    border: 5px solid black;
+}
+
+body {
+    background-image: url("images/watercolor.jpg");
+}
