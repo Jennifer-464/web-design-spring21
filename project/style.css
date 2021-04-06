@@ -66,3 +66,10 @@ nav a:hover {
 .current {
     color: red;
 }
+
+
+/*** IMAGE ***/
+#imageMain {
+    width: 30%;
+    border-radius: 10%;
+}
