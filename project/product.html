@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Link to reference CSS file -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet" text="text/css">
 
         <!-- Changes name of webpage tab -->
@@ -52,7 +53,7 @@
 
         <!-- 3. Navigation Bar   -->
         <nav>
-            <hr width="50%" /> <!-- This adds a line -->
+            <center><hr width="50%" /> </center><!-- This adds a line -->
             <!-- CHANGE CURRENT BASED ON THE HTML THAT YOU ARE IN-->
             <a href="index.html"> Home </a>
             <a href="about.html"> About </a>
@@ -65,7 +66,37 @@
 
         <!-- 4. Main Body -->
         <main>
-            <h1> Holder - Product page </h1>
+            <h1> Products </h1>
+            <div class="container">
+                <div class="row">
+                  
+                  <div class="col-sm-4 border border-light p-4"> 
+                    <img src="images/doggo2.jpg" class="productImg">
+                    <br>
+                    <h3> Item 1 </h3>
+                    <p> Description of the Item would go here </p>
+                    <p> $5 </p>
+                    <button type="button" class="btn btn-info"> Add To Cart </button>
+                  </div>
+          
+                  <div class="col-sm-4 border border-light p-4"> 
+                    <img src="images/grogu2.png" class="productImg"> <br>
+                    <h3> Item 2 </h3>
+                    <p> Description of the Item would go here </p>
+                    <p> $10 </p>
+                    <button type="button" class="btn btn-info"> Add To Cart </button>
+                  </div>
+          
+                  <div class="col-sm-4 border border-light p-4"> 
+                    <img src="images/pusheen2.jpg" class="productImg">
+                    <h3> Item 3 </h3> <br>
+                    <p> Description of the Item would go here </p>
+                    <p> $1.99 </p>
+                    <button type="button" class="btn btn-info"> Add To Cart </button>
+                  </div>
+          
+                </div>
+              </div>
         </main>
 
         <!-- 5. Footer -->

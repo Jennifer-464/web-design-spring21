@@ -1,7 +1,7 @@
 /* In charge of setting up */
 body {
     background-color: black;
-    color: rgb(164, 232, 232);
+    color: rgb(199, 199, 199);
 }
 
 /* Makes everything to the center 
@@ -71,5 +71,9 @@ nav a:hover {
 /*** IMAGE ***/
 #imageMain {
     width: 30%;
+    border-radius: 10%;
+}
+.productImg {
+    width: 70%;
     border-radius: 10%;
 }
